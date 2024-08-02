@@ -4,23 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bed1d5c-6191-436d-9e81-400666d7f5c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/title.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+    <list default="true" id="6bed1d5c-6191-436d-9e81-400666d7f5c1" name="Changes" comment="finished layout, added Prisma and create schema, connect to vercel service postgresSql db">
+      <change afterPath="$PROJECT_DIR$/app/api/users/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/FilterCheckbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/Filters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/checkbox-filters-group.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/productCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/products-group-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/range-slider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/sort-popup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/top-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/prisma-client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/category.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/Categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Categories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,9 +47,9 @@
     <bower-package value="" />
     <bower.json value="" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jltwmcedTns11n2xl3jgnQvAov" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/admin/pets/next-app",
     "node.js.detected.package.eslint": "true",
@@ -69,11 +88,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721973731419</updated>
-      <workItem from="1721973732555" duration="4850000" />
+      <workItem from="1721973732555" duration="5185000" />
+      <workItem from="1722600694727" duration="15752000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished layout, added Prisma and create schema, connect to vercel service postgresSql db" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished layout, added Prisma and create schema, connect to vercel service postgresSql db" />
   </component>
 </project>
